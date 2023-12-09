@@ -1,16 +1,13 @@
-import Header from './components/Header.js';
-import Nav from './components/Nav.js';
-import Footer from './components/Footer.js';
-import Hero from './components/Hero.js';
-import './App.css';
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-  <Header/>
-  <Nav className="App-Nav"/>
-  <Hero/>
-  <Footer/>
+      <Navbar />
+      <Routing />
+      <Footer />
     </>
   );
 }
